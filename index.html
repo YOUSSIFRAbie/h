@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form mail</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page">
+    <form action="">
+      <input id="name" type="text" placeholder="name" required>
+      <input id="email" type="text" placeholder="email" required>
+      <input id="password" type="text" placeholder="password" required>
+      <input type="text" placeholder="subject" id="subject">
+      <input id="adress" type="text" placeholder="adress" required>
+      <textarea id="message" cols="30" rows="10" placeholder="message" required></textarea>
+      
+      
+      <input type="submit" id="btn" value="send">
+    </form>
+  </div>
+
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>
